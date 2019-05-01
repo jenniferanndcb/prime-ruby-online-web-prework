@@ -1,3 +1,4 @@
-def prime? (num = 1..n.to_i).to_a
+def prime? (num)
+  x = 
   num % x == 0 ? "true" : "false" 
 end 
