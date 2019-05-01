@@ -1,9 +1,9 @@
-def prime? (num)
-  if num <= 1 
+def prime?(integer)
+  if integer >= 2
+    (2..integer - 1).all? do |x|
+      integer % x != 0
+    end
+  else
     return false
-  elsif
-   prime = (2..num-1).to_a
-   
-   prime.each do 
-  num % x == 0 ? "true" : "false" 
-end 
+  end
+end
