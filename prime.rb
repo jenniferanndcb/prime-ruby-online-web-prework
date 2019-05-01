@@ -1,4 +1,7 @@
 def prime? (num)
-  x = 
+  if num <= 1 
+    return false
+  end 
+  
   num % x == 0 ? "true" : "false" 
 end 
